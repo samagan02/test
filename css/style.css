@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+#header{
+    padding: 10px 0;
+    background: linear-gradient(90deg, #72072D 20%, #FF005C 90%);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title{
+    font-family: Inter;
+    font-size: 40px;
+    color: white;
+}
+.header-input {
+    position: relative;
+}
+.header-input i {
+    position: absolute;
+    top: 9px;
+    right: 26px;
+    color: white;
+}
+.header-input input{
+    width: 480px;
+    margin-left: 35px;
+    background: rgba(196, 196, 196, 0.14);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+}
+.header-icons {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.search1{
+    box-sizing: border-box;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+.photo{
+    width: 485px;
+    height: 381px;
+    border-radius: 28px;
+}
+.phone{
+    width: 1107px;
+    height: 380px;
+    border-radius: 28px
+}
+.od{
+    font-size: 25px;
+    line-height: 58px;
+    color: #72072D;
+}
+.type{
+    margin-top: 55px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 55px;
+    color: #FF005C;
+}
+.free-taitle {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #72072D;
+    padding-top: 25px;
+}
+.cat{
+    position: absolute;
+    width: 213px;
+    height: 48px;
+    left: 45px;
+    top: 637px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #72072D;
+}
+.hero{
+    display: flex;
+    background: url("../img/Rectangle 2256 (1).png");
+}
+.headIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.headSearch{
+    display: flex;
+    color: white;
+}
+.container{
+}
